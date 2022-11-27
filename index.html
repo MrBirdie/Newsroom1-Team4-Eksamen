@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title>Newsroom 1 Team 4 Hovedside</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- WC3s alternativ til Bootsrtap CSS -->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+	<div class="w3-top">
+	  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+		<a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+		<a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Forside</a>
+		<a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Er VR kommer for å bli?</a>
+		<a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Atomkraft - Virklighet mot Frykt</a>
+		<a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Single Menn: Lider i stillhet?</a>
+		<a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Stormaskinen - Samfunnets Sårbare-ledd</a>
+	  </div>
+
+	  <!-- Meny på små akjermer -->
+	  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+		<a href="#" class="w3-bar-item w3-button w3-padding-large">Er VR kommer for å bli?</a>
+		<a href="#" class="w3-bar-item w3-button w3-padding-large">Atomkraft - Virklighet mot Frykt</a>
+		<a href="#" class="w3-bar-item w3-button w3-padding-large">Single Menn: Lider i stillhet?</a>
+		<a href="#" class="w3-bar-item w3-button w3-padding-large">Stormaskinen - Samfunnets Sårbare-ledd</a>
+	  </div>
+	</div>
+	<header class="w3-container w3-teal w3-center" style="padding:128px 16px">
+	  <h1>Newsroom 1 Team 4</h1>
+	</header>
+
+	<div class="w3-row-padding w3-padding-64 w3-container">
+	  <div class="w3-content">
+		<div class="w3-twothird">
+		  <h3>Maskulin Innordning</h3>
+		  <p>Test</p>
+		  <p>Test?</p>
+		  <p>Test!</p>
+		</div>
+
+		<div class="w3-third w3-center">
+		  <img src="depressed-man-irasutoya.png" alt="Deprimert mann fra Irasutoya" style="max-width: 100%;">
+		</div>
+	  </div>
+	</div>
+
+	<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+	  <div class="w3-content">
+		<div class="w3-third w3-center">
+		  <img src="mental-health.png" alt="Mental helse andel menn" style="max-width: 100%;">
+		</div>
+
+		<div class="w3-twothird">
+		  <h3>Test</h3>
+		  <p>TEEEEST</p>
+		</div>
+	  </div>
+	</div>
+
+	<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+	<p>Gustav, Louise<p/></div>
+	<script>
+		//Til menyen på små skjermer
+		function myFunction() {
+			var x = document.getElementById("navDemo");
+			if (x.className.indexOf("w3-show") == -1) {
+				x.className += " w3-show";
+			} 
+			else { 
+				x.className = x.className.replace(" w3-show", "");
+			}
+		}
+</script>
+</body>
+</html>
